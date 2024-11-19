@@ -13,3 +13,12 @@ function gravacaoano(){
 function melhorpopduo(){
     alert("Us - Gracie Abrams feat Taylor Swift;\nLevii's Jeans - Beyoncé feat Post Malone;\nGuess - Charlie XCX feat Billie Eilish;\nThe Boy is Mine - Ariana Grande feat Brandy & Monica;\nDie with a Smile - Bruno Mars feat Lady Gaga.")
 }
+function melhorpop(){
+    alert("Short N' Sweet - Sabrina Carpenter;\nHit Me Hard and Soft - Billie Eilish;\nEternal Sunshine - Ariana Grande;\nThe Rise and Fall of a Midwest Princess - Chappell Roan;\nThe Tortured Poets Department - Taylor Swift.")
+}
+function trilhacompilacao(){
+    alert("A Cor Púrpura;\nDeadpool & Wolverine;\nMaestro: Music by Leonard Bernstein;\nSaltburn;\nTwisters.")
+}
+function melhorcancao(){
+    alert("Ain't No Love in Oklahoma - Twisters;\nBetter Place - Trolls 3;\nCan't Catch Me Now - Jogos Vorazes - A Cantiga dos Pássaros e das Serpentes;\nIt Never Went Away - Sinfonia Americana;\nLove Will Survive - O Tatuador de Auschwitz")
+}
