@@ -42,9 +42,10 @@ nav{
 nav ul{
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 nav ul li a{
     color: white;
