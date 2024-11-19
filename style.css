@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(57, 57, 57);
+}
+header { /*transforma o cabeçalho em um contêiner flexível, o que ajuda a organizar os elementos dentro dele.*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* define o item logo como um flex container */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30px; 
+}
+/*imagem flexível */
+.logo img {
+    width: 50px; /* largura mais flexível */
+    height: auto; 
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding: 1cm;
+    margin: 0;
+    text-shadow: 0.1em 0.1em 0.2em black; /*adiciona uma sombra esfumaçada ao texto*/
+    color: rgb(254, 254, 254);
+    text-align: center;
+}
+h2{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: -30px;
+}
+nav{
+    background-color: rgb(90, 37, 14);
+    padding: 10px;
+    box-shadow: 0 2px 4px black;
+    border-radius: 8px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-shadow: 0 2px 4px black;
+}
+.categoria{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    background-color: rgb(134, 78, 48);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+}
+button{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    padding: 10px 20px;
+    margin: 30px;
+    border: none;
+    background-color:rgb(64, 1, 1);
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(119, 21, 21);
+}
+.container{
+    text-align: center;
+}
+.cards{
+    display: flex; /*transforma o container em flexivel*/
+    gap: 2rem; /*Isso adiciona um espaço de 2rem entre os itens flexíveis dentro do contêiner (nesse caso, os elementos do cartão).*/
+    justify-content: center; /*Isso centraliza os itens flexíveis horizontalmente dentro do contêiner.*/
+    flex-wrap: wrap; /*Isso garante que, se não houver espaço suficiente para acomodar todos os itens em uma linha, eles passarão para a próxima linha.*/
+}
+.card{
+    background-color: rgb(244, 244, 232);
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px black;
+    max-width: 300px; /*largura máxima do cartão*/
+}
+.card img{
+    width: 100%;
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammys</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <img src="images/grammy.png" alt="grammy logo">
+            </div>
+        <h1>Indicados ao Grammy 2025</h1>
+        <h2>Meus Indicados Favoritos</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#albumDoAno">Álbum do Ano</a></li>
+            <li><a href="#musicaDoAno">Música do Ano</a></li>
+            <li><a href="#artistaRevelacao">Artista Revelação</a></li>
+            <li><a href="#melhorGravacao">Gravação do Ano</a></li>
+            <li><a href="#melhorpopduo">Melhor Performance Pop - Duo/Grupo</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+        <section id="albumDoAno" class="melhoralbum">
+            <div class="categoria">
+                <h3>Álbum do Ano</h3>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/brat.png" alt="brat">
+                    <h4>brat - Charli XCX</h4>
+                </div>
+                <div class="card">
+                    <img src="images/hitmehardandsoft.png" alt="hitmehardandsoft">
+                    <h4>Hit Me Hard And Soft - Billie Elish</h4>
+                </div>
+                <div class="card">
+                    <img src="images/theriseandfall.png" alt="theriseandfall">
+                    <h4>The Rise and Fall of a Midwest Princess - Chappell Roan</h4>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="button" onclick="albumano()">INDICADOS</button>
+            </div>
+        </section>
+            <section id="musicaDoAno" class="best-song">
+                <div class="categoria">
+                    <h3>Música do Ano</h3>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <img src="images/hitmehardandsoft.png" alt="hitmehardandsoft">
+                        <h4>Birds of a Feather - Billie Elish</h4>
+                    </div>
+                    <div class="card">
+                        <img src="images/goodLuckBabe.jpg" alt="goodluckbabe">
+                        <h4>Good Luck, Babe! - Chappell Roan</h4>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button type="button" onclick="musicaano()">INDICADOS</button>
+                </div>
+        </section>
+        <section id="artistaRevelacao" class="best-artist">
+            <div class="categoria">
+                <h3>Artista Revelação</h3>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/raye.jpg" alt="raye">
+                    <h4>Raye</h4>
+                </div>
+                <div class="card">
+                    <img src="images/theriseandfall.png" alt="chappelRoan">
+                    <h4>Chappell Roan</h4>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="button" onclick="artistaano()">INDICADOS</button>
+            </div>
+    </section>
+    <section id="melhorGravacao" class="best-record">
+        <div class="categoria">
+            <h3>Gravação do Ano</h3>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="images/espresso.jpg">
+                <h4>Espresso - Sabrina Carpenter</h4>
+            </div>
+            <div class="card">
+                <img src="images/brat.png">
+                <h4>360 - Charli XCX</h4>
+            </div>
+            <div class="card">
+                <img src="images/hitmehardandsoft.png" alt="hitmehardandsoft">
+                <h4>Birds of a Feather - Billie Elish</h4>
+            </div>
+            <div class="card">
+                <img src="images/goodLuckBabe.jpg" alt="goodluckbabe">
+                <h4>Good Luck, Babe! - Chappell Roan</h4>
+            </div>
+        </div>
+        <div class="buttons">
+            <button type="button" onclick="gravacaoano()">INDICADOS</button>
+        </div>
+    </section>
+    <section id="melhorpopduo" class="best-popduo">
+        <div class="categoria">
+            <h3>Melhor Performance Pop - Duo/Grupo</h3>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="images/guess.jpeg">
+                <h4>Guess - Charlie XCX feat Billie Eilish</h4>
+            </div>
+            <div class="card">
+                <img src="images/theboyismine.png">
+                <h4>The Boy is Mine - Ariana Grande feat Brandy & Monica</h4>
+            </div>
+            <div class="card">
+                <img src="images/diewithasmile.jpeg">
+                <h4>Die with a Smile - Bruno Mars feat Lady Gaga</h4>
+            </div>
+        </div>
+        <div class="buttons">
+            <button type="button" onclick="melhorpopduo()">INDICADOS</button>
+        </div>
+    </section>
+    </div>
+    </main>
+    <script src="index.js" ></script>
+</body>
+</html>
