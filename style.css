@@ -53,6 +53,9 @@ nav ul li a{
     font-size: 1.3rem;
     text-shadow: 0 2px 4px black;
 }
+nav ul li a:hover{
+    color:rgb(169, 6, 6)
+}
 .categoria{
     display: flex;
     justify-content: center;
