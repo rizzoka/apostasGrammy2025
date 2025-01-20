@@ -18,6 +18,28 @@ header { /*transforma o cabeçalho em um contêiner flexível, o que ajuda a org
     width: 50px; /* largura mais flexível */
     height: auto; 
 }
+.menu{
+    display: flex;
+    position: sticky;
+    top: 10px;
+    right: 20px;
+}
+.menu button{ 
+    width: 50px;
+    height: 50px;
+    background-color: rgb(90, 37, 14);
+    padding: 10px;
+    border: 0.5px ridge rgb(52, 19, 4);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.menu button:hover{
+    background-color: rgb(98, 65, 51) ;
+}
+.menu button img{
+    width: 30px; /* largura mais flexível */
+    height: auto; 
+}
 h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
@@ -70,7 +92,7 @@ h3{
     border-radius: 8px;
     box-shadow: 0 2px 4px black;
 }
-button{
+.buttons button{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 0.1em 0.1em 0.2em black;
     padding: 10px 20px;
@@ -82,7 +104,7 @@ button{
     font-size: 20px;
     cursor: pointer;
 }
-button:hover{
+.buttons button:hover{
     background-color:rgb(119, 21, 21);
 }
 .container{
